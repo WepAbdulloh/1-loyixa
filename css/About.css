@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    background-color: rgba(254, 252, 247, 1);
+    margin: 0 auto;
+}
+
+/* navbar qismi */
+.nav {
+    width: 1440px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+
+}
+
+.xref ul {
+    display: flex;
+    gap: 30px;
+}
+
+.xref a {
+    font-family: Barlow;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.92px;
+    text-transform: uppercase;
+    color: rgba(131, 136, 143, 1);
+}
+
+/* navbar qismi tuagdi */
+
+/* content qismi */
+.content {
+    width: 1440px;
+    height: 450px;
+    background-image: url(../about-img/Group\ 7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: grid;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.cart {
+    width: 445px;
+    height: 176px;
+    display: grid;
+    align-content: space-between;
+    margin-left: 100px;
+}
+
+.cart h1 {
+    font-family: Fraunces 9pt;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: rgba(254, 252, 247, 1);
+}
+
+.cart p {
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: rgba(254, 252, 247, 1);
+}
+
+/* content qismi tugadi */
+
+/* content2 qismi */
+.content2 {
+    width: 1440px;
+    display: grid;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 350px;
+}
+
+.wrapper {
+    width: 1110px;
+    height: 520px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart2 {
+    width: 445px;
+    height: 520px;
+}
+
+.cart2 img {
+    width: 445px;
+    height: 520px;
+    border-radius: 10px;
+}
+
+.cart3 {
+    width: 540px;
+    height: 340px;
+    display: grid;
+    align-content: space-between;
+}
+
+.cart3 h1 {
+    font-family: Fraunces 9pt;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: rgba(51, 61, 75, 1);
+}
+
+.cart3 p {
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: rgba(51, 61, 75, 1);
+}
+
+/* content2 qismi tugadi */
+/* content3 qismi */
+.content3 {
+    width: 1440px;
+    height: 474px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(44, 52, 62, 1);
+    border-radius: 10px;
+}
+
+.cart4 {
+    width: 540px;
+    height: 210px;
+    display: grid;
+    align-content: space-between;
+}
+
+.cart4 h1 {
+    font-family: Fraunces 9pt;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: rgba(254, 252, 247, 1);
+}
+
+.cart4 p {
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: rgba(254, 252, 247, 1);
+}
+
+.cart5 {
+    width: 445px;
+    height: 474px;
+    border-radius: 10px;
+    transform: translateY(-30%);
+
+}
+
+.cart5 img {
+    border-radius: 10px;
+
+}
+
+/* content3 qismi tugadi */
+/* content4 qismi */
+.content4 {
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+
+}
+
+.wrapper2 {
+    width: 1045px;
+    height: 366px;
+    display: grid;
+    align-content: space-between;
+}
+
+.wrapper2 h1 {
+    font-family: Fraunces 9pt;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: rgba(131, 136, 143, 1);
+}
+
+.wrapper2-cart {
+    width: 1045px;
+    height: 262px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart6 {
+    width: 285px;
+    height: 262px;
+    display: grid;
+    align-content: space-between;
+}
+
+.cart6 h1 {
+    font-family: Fraunces 9pt;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: rgba(51, 61, 75, 1);
+}
+
+.cart6 p {
+    font-family: Barlow;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: rgba(51, 61, 75, 1);
+}
+
+/* content4 qismi tugadi */
+/* content5 qismi */
+.content5 {
+    width: 1440px;
+    display: grid;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.wrapper7 {
+    width: 1280px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(44, 52, 62, 1);
+    justify-content: space-around;
+    gap: 200px;
+}
+
+.cart8 {
+    width: 621px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.xref2 ul {
+    display: flex;
+    gap: 30px;
+}
+
+.xref2 a {
+    font-family: Barlow;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.92px;
+    text-transform: uppercase;
+    color: rgba(131, 136, 143, 1);
+}
+
+.cart7 {
+    width: 120px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart7 img {
+    cursor: pointer;
+}
